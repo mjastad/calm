@@ -95,13 +95,11 @@ Application Server and backend Database.
 <!-- -->
 
 8.  Create/Add a Service by clicking the **Add Service**
-    ![](./calmMedia/media/image3.png){width="0.3056091426071741in"
-    height="0.2615015310586177in"} Icon, located in the upper left of
+    ![](./calmMedia/media/image3.png) Icon, located in the upper left of
     the Blueprint canvas.
 
 9.  A new Service Icon
-    ![](./calmMedia/media/image4.png){width="0.29097222222222224in"
-    height="0.3701181102362205in"} should appear on the Blueprint
+    ![](./calmMedia/media/image4.png) should appear on the Blueprint
     canvas.
 
 10. To the Right of the Blueprint canvas there are set of fields
@@ -112,8 +110,7 @@ Application Server and backend Database.
     b.  Under the **PROVIDERS** section, set the **PROVIDER** field by
         clicking the dropdown menu and selecting *“Provision Nutanix”.*
 
-        ![](./calmMedia/media/image5.png){width="3.175845363079615in"
-        height="2.3912390638670167in"}
+        ![](./calmMedia/media/image5.png)
 
     c.  Under **CONFIGURATION** set the fields as illustrated below:
 
@@ -138,81 +135,67 @@ Application Server and backend Database.
     e.  Create a credential by clicking on the dropdown menu under
         **CREDENTIAL**
 
-        ![](./calmMedia/media/image6.png){width="2.5145833333333334in"
-        height="0.6777777777777778in"}
+        ![](./calmMedia/media/image6.png)
 
     f.  Click **Add New Credential**. This exercise requires username &
         password authentication only. Add the credentials for the VM
         user: root, password: nutanix/4u. Click **Add** button to save
         credential.
 
-> ![](./calmMedia/media/image7.tiff){width="3.7586078302712163in"
-> height="1.9547003499562554in"}
+        ![](./calmMedia/media/image7.png)
 
 8.  Save the Blueprint by clicking the
-    **Save**![](./calmMedia/media/image8.png){width="0.23766076115485565in"
-    height="0.2822222222222222in"} Icon located to the right of Calm’s
+    **Save**![](./calmMedia/media/image8.png) Icon located to the right of Calm’s
     Toolbar.
 
 9.  The Icon should appear as
-    ![](./calmMedia/media/image9.png){width="0.41480971128608923in"
-    height="0.22590769903762029in"} checked when successfully saved.
+    ![](./calmMedia/media/image9.png) checked when successfully saved.
 
 10. Click the LAYERS + sign to expand (if needed). Select or click on
     ‘*create-action’*. The Blueprint canvas should appear as follows:
 
-    ![](./calmMedia/media/image10.png){width="4.9804800962379705in"
-    height="4.164316491688539in"}
+    ![](./calmMedia/media/image10.png)
 
 > **Note:** In the following steps involving any Calm Shell commands, be
 > sure to add the following as the first command:
-> ![](./calmMedia/media/image11.png){width="1.7158650481189852in"
-> height="0.13117344706911635in"}
+> ![](./calmMedia/media/image11.png)
 
 8.  Click the ‘Add Task’ button in the create-action window anchored to
     the DB Server service, and complete the fields as shown below.
 
     **Note:** Calm automatically links the provision and task items.
 
-> ![](./calmMedia/media/image12.png){width="2.423759842519685in"
-> height="3.0297003499562556in"}
+> ![](./calmMedia/media/image12.png)
 
 8.  Save the Task by clicking the
-    **Save**![](./calmMedia/media/image8.png){width="0.23766076115485565in"
-    height="0.2822222222222222in"} Icon located to the right of Calm’s
+    **Save**![](./calmMedia/media/image8.png) Icon located to the right of Calm’s
     Toolbar.
 
 9.  The Icon should appear as
-    ![](./calmMedia/media/image9.png){width="0.41480971128608923in"
-    height="0.22590769903762029in"} checked when successfully saved.
+    ![](./calmMedia/media/image9.png) checked when successfully saved.
 
 10. Add another Task by clicking the ‘Add Task’ button in the
     create-action window anchored to the DB Server service, and complete
     the fields as shown below.
 
-    ![](./calmMedia/media/image13.png){width="2.479889545056868in"
-    height="3.2162390638670164in"}
+    ![](./calmMedia/media/image13.png)
 
 11. Save the Task by clicking the
-    **Save**![](./calmMedia/media/image8.png){width="0.23766076115485565in"
-    height="0.2822222222222222in"} Icon located to the right of Calm’s
+    **Save**![](./calmMedia/media/image8.png) Icon located to the right of Calm’s
     Toolbar.
 
 12. The Icon should appear as
-    ![](./calmMedia/media/image9.png){width="0.41480971128608923in"
-    height="0.22590769903762029in"} checked when successfully saved.
+    ![](./calmMedia/media/image9.png) checked when successfully saved.
 
 13. Create the Application Server by adding another service to the
     Blueprint.
 
 14. Add the Service by clicking the **Add Service**
-    ![](./calmMedia/media/image3.png){width="0.3056091426071741in"
-    height="0.2615015310586177in"} Icon, located in the upper left of
+    ![](./calmMedia/media/image3.png) Icon, located in the upper left of
     the Blueprint canvas.
 
 15. Another Service Icon
-    ![](./calmMedia/media/image4.png){width="0.29097222222222224in"
-    height="0.3701181102362205in"} should appear on the Blueprint
+    ![](./calmMedia/media/image4.png) should appear on the Blueprint
     canvas.
 
 16. To the Right of the Blueprint canvas set the fields describing the
@@ -242,42 +225,35 @@ Application Server and backend Database.
         It will use the same authentication as DB Server.
 
 18. Save the Blueprint by clicking the
-    **Save** ![](./calmMedia/media/image8.png){width="0.23766076115485565in"
-    height="0.2822222222222222in"} Icon located to the right of Calm’s
+    **Save** ![](./calmMedia/media/image8.png) Icon located to the right of Calm’s
     Toolbar.
 
 19. The Icon should appear as
-    ![](./calmMedia/media/image9.png){width="0.41480971128608923in"
-    height="0.22590769903762029in"} checked when successfully saved.
+    ![](./calmMedia/media/image9.png) checked when successfully saved.
 
 20. Click the ‘Add Task’ button in the create-action window anchored to
     the App Server service, and complete the fields as shown below.
 
-> ![](./calmMedia/media/image12.png){width="2.5145833333333334in"
-> height="3.029166666666667in"}
+> ![](./calmMedia/media/image12.png)
 
 8.  Add a 2nd task by clicking the ‘Add Task’ button in the
     create-action window anchored to the App Server service, and
     complete the fields as shown below.
 
-    ![](./calmMedia/media/image14.png){width="2.597916666666667in"
-    height="3.2581135170603677in"}
+    ![](./calmMedia/media/image14.png)
 
 9.  Add a 3rd task by clicking the ‘Add Task’ button in the
     create-action window anchored to the App Server service, and
     complete the fields as shown below.
 
-    ![](./calmMedia/media/image15.png){width="2.528994969378828in"
-    height="3.243162729658793in"}
+    ![](./calmMedia/media/image15.png)
 
 10. Save the Blueprint by clicking the
-    **Save**![](./calmMedia/media/image8.png){width="0.23766076115485565in"
-    height="0.2822222222222222in"} Icon located to the right of Calm’s
+    **Save**![](./calmMedia/media/image8.png) Icon located to the right of Calm’s
     Toolbar.
 
 11. The Icon should appear as
-    ![](./calmMedia/media/image9.png){width="0.41480971128608923in"
-    height="0.22590769903762029in"} checked when successfully saved.
+    ![](./calmMedia/media/image9.png) checked when successfully saved.
 
 12. In this exercise, we’ve created two separate services that contain
     their own associated tasks. Currently, the tasks are not ‘aware’ of
@@ -288,41 +264,33 @@ Application Server and backend Database.
 13. To accomplish this, click the ‘Install DB’ task, then click the
     small arrow that appears.
 
-> ![](./calmMedia/media/image16.png){width="3.0145833333333334in"
-> height="1.7813451443569555in"}
+> ![](./calmMedia/media/image16.png)
 
 8.  Using the dependency arrow ‘move’ mode enabled, click the ‘Provider
     Create Task’ task within the ‘Deploy App Server’ service. The
     Blueprint should look as follows:
 
-> ![](./calmMedia/media/image17.png){width="5.9463003062117235in"
-> height="4.9450853018372705in"}
+> ![](./calmMedia/media/image17.png)
 
 8.  Save the Blueprint by clicking the
-    **Save**![](./calmMedia/media/image8.png){width="0.23766076115485565in"
-    height="0.2822222222222222in"} Icon located to the right of Calm’s
+    **Save**![](./calmMedia/media/image8.png) Icon located to the right of Calm’s
     Toolbar.
 
 9.  The Icon should appear as
-    ![](./calmMedia/media/image9.png){width="0.41480971128608923in"
-    height="0.22590769903762029in"} checked when successfully saved.
+    ![](./calmMedia/media/image9.png) checked when successfully saved.
 
 10. Test, establish a deployment-name, and run the Blueprint by clicking
     the **Rocket**
-    ![](./calmMedia/media/image18.png){width="0.25594378827646547in"
-    height="0.20854658792650918in"} Icon located to the right of Calm’s
+    ![](./calmMedia/media/image18.png) Icon located to the right of Calm’s
     Toolbar.
 
 11. Add **DEPLOYMENT NAME**: “*Deploy Web App*”. Click the
-    **Validate**![](./calmMedia/media/image19.png){width="0.22422462817147856in"
-    height="0.20876093613298338in"} Icon. Blueprint is valid when the
+    **Validate**![](./calmMedia/media/image19.png) Icon. Blueprint is valid when the
     **Checked**
-    ![](./calmMedia/media/image20.png){width="0.2976334208223972in"
-    height="0.1612182852143482in"} Icon appears next to the **Validate**
+    ![](./calmMedia/media/image20.png) Icon appears next to the **Validate**
     Icon.
 
-    ![](./calmMedia/media/image21.png){width="2.43125in"
-    height="0.6215277777777778in"}
+    ![](./calmMedia/media/image21.png)
 
 12. If the Blueprint was successfully validated, click the **Play**
     ![](./calmMedia/media/image22.png){width="0.20945538057742782in"
@@ -330,46 +298,38 @@ Application Server and backend Database.
     Deployment Status screen should appear showing the deployment as
     **IN-PROGRESS**
 
-    ![](./calmMedia/media/image23.png){width="4.847916666666666in"
-    height="2.4443963254593175in"}
+    ![](./calmMedia/media/image23.png)
 
 13. Upon successful completion of a deployment, the status should
     transition from **IN-PROGRESS** to **RUNNING**
 
-![](./calmMedia/media/image24.png){width="4.903784995625546in"
-height="2.743162729658793in"}
+![](./calmMedia/media/image24.png)
 
 8.  Successful completion of a deployment, and associated tasks can be
     found by scrolling down, below the **Deployment Status** screen in
     **TOPOLOGY** and should appear as follows
 
-    ![](./calmMedia/media/image25.png){width="5.68125in"
-    height="3.3277099737532807in"}
+    ![](./calmMedia/media/image25.png)
 
-    ![](./calmMedia/media/image26.png){width="5.68125in"
-    height="1.0943678915135608in"}
+    ![](./calmMedia/media/image26.png)
 
 9.  Check Deployment status by clicking the **Deployments**
-    ![](./calmMedia/media/image27.png){width="0.4509733158355206in"
-    height="0.2799146981627297in"} Icon in the left-hand navigation bar
+    ![](./calmMedia/media/image27.png) Icon in the left-hand navigation bar
     to manage the deployment. The following should appear:
 
-    ![](./calmMedia/media/image28.png){width="5.680048118985127in"
-    height="1.3431627296587927in"}
+    ![](./calmMedia/media/image28.png)
 
 10. Verify the deployment within Prism Element by navigating to the VM
     page in table view. The VM’s function as a normal AHV VM’s that can
     be managed the same as a manually-provisioned AHV VM within Prism
     Element
 
-    ![](./calmMedia/media/image29.png){width="5.731081583552056in"
-    height="1.687392825896763in"}
+    ![](./calmMedia/media/image29.png)
 
 11. Verify the App Server is running by opening a browser (Chrome
     recommended) to establish a session with the server using the IP
     Address - Ref: App Server VM in Prism Element.
 
-    ![](./calmMedia/media/image30.png){width="5.847916666666666in"
-    height="3.0936778215223097in"}
+    ![](./calmMedia/media/image30.png)
 
 INTENTIONALLY LEFT BLANK
