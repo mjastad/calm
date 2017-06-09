@@ -79,6 +79,7 @@ Application Server and backend Database.
 4.  The Blueprint editor-canvas should appear as follows:
 
     ![](./calmMedia/media/image2.tiff =250px)
+    <img src="./calmMedia/media/image2.tiff" width="200">
 
 5.  With the Blueprint editor-canvas opened, enter the following:
 
