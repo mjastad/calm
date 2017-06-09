@@ -49,7 +49,7 @@ basic blueprint, the lab exercise will guide you through creating a
 slightly more complex blueprint, introducing dependencies and
 post-deployment tasks.
 
-![](./calmMedia/media/image1.png)**STOP:** In the following lab exercises,
+![](./calmMedia/media/image1.png){:height="50px" width="50px"} **STOP:** In the following lab exercises,
 Calm requires QCOW (Quick Emulator Copy-On-Write), Images to deploy and
 manage. This implies that the CentOS image to be used in the following
 exercises needs to be qcow formatted and staged as Type “DISK”, using
