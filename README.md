@@ -78,8 +78,8 @@ Application Server and backend Database.
 
 4.  The Blueprint editor-canvas should appear as follows:
 
-    ![](./calmMedia/media/image2.tiff =250px)
-    <img src="./calmMedia/media/image2.tiff" width="200">
+    ![](./calmMedia/media/image2.png)
+   
 
 5.  With the Blueprint editor-canvas opened, enter the following:
 
@@ -112,7 +112,7 @@ Application Server and backend Database.
     b.  Under the **PROVIDERS** section, set the **PROVIDER** field by
         clicking the dropdown menu and selecting *“Provision Nutanix”.*
 
-        ![](./calmMedia/media/image5.tiff){width="3.175845363079615in"
+        ![](./calmMedia/media/image5.png){width="3.175845363079615in"
         height="2.3912390638670167in"}
 
     c.  Under **CONFIGURATION** set the fields as illustrated below:
@@ -138,7 +138,7 @@ Application Server and backend Database.
     e.  Create a credential by clicking on the dropdown menu under
         **CREDENTIAL**
 
-        ![](./calmMedia/media/image6.tiff){width="2.5145833333333334in"
+        ![](./calmMedia/media/image6.png){width="2.5145833333333334in"
         height="0.6777777777777778in"}
 
     f.  Click **Add New Credential**. This exercise requires username &
@@ -155,13 +155,13 @@ Application Server and backend Database.
     Toolbar.
 
 9.  The Icon should appear as
-    ![](./calmMedia/media/image9.tiff){width="0.41480971128608923in"
+    ![](./calmMedia/media/image9.png){width="0.41480971128608923in"
     height="0.22590769903762029in"} checked when successfully saved.
 
 10. Click the LAYERS + sign to expand (if needed). Select or click on
     ‘*create-action’*. The Blueprint canvas should appear as follows:
 
-    ![](./calmMedia/media/image10.tiff){width="4.9804800962379705in"
+    ![](./calmMedia/media/image10.png){width="4.9804800962379705in"
     height="4.164316491688539in"}
 
 > **Note:** In the following steps involving any Calm Shell commands, be
@@ -174,7 +174,7 @@ Application Server and backend Database.
 
     **Note:** Calm automatically links the provision and task items.
 
-> ![](./calmMedia/media/image12.tiff){width="2.423759842519685in"
+> ![](./calmMedia/media/image12.png){width="2.423759842519685in"
 > height="3.0297003499562556in"}
 
 8.  Save the Task by clicking the
@@ -183,14 +183,14 @@ Application Server and backend Database.
     Toolbar.
 
 9.  The Icon should appear as
-    ![](./calmMedia/media/image9.tiff){width="0.41480971128608923in"
+    ![](./calmMedia/media/image9.png){width="0.41480971128608923in"
     height="0.22590769903762029in"} checked when successfully saved.
 
 10. Add another Task by clicking the ‘Add Task’ button in the
     create-action window anchored to the DB Server service, and complete
     the fields as shown below.
 
-    ![](./calmMedia/media/image13.tiff){width="2.479889545056868in"
+    ![](./calmMedia/media/image13.png){width="2.479889545056868in"
     height="3.2162390638670164in"}
 
 11. Save the Task by clicking the
@@ -199,7 +199,7 @@ Application Server and backend Database.
     Toolbar.
 
 12. The Icon should appear as
-    ![](./calmMedia/media/image9.tiff){width="0.41480971128608923in"
+    ![](./calmMedia/media/image9.png){width="0.41480971128608923in"
     height="0.22590769903762029in"} checked when successfully saved.
 
 13. Create the Application Server by adding another service to the
@@ -247,27 +247,27 @@ Application Server and backend Database.
     Toolbar.
 
 19. The Icon should appear as
-    ![](./calmMedia/media/image9.tiff){width="0.41480971128608923in"
+    ![](./calmMedia/media/image9.png){width="0.41480971128608923in"
     height="0.22590769903762029in"} checked when successfully saved.
 
 20. Click the ‘Add Task’ button in the create-action window anchored to
     the App Server service, and complete the fields as shown below.
 
-> ![](./calmMedia/media/image12.tiff){width="2.5145833333333334in"
+> ![](./calmMedia/media/image12.png){width="2.5145833333333334in"
 > height="3.029166666666667in"}
 
 8.  Add a 2nd task by clicking the ‘Add Task’ button in the
     create-action window anchored to the App Server service, and
     complete the fields as shown below.
 
-    ![](./calmMedia/media/image14.tiff){width="2.597916666666667in"
+    ![](./calmMedia/media/image14.png){width="2.597916666666667in"
     height="3.2581135170603677in"}
 
 9.  Add a 3rd task by clicking the ‘Add Task’ button in the
     create-action window anchored to the App Server service, and
     complete the fields as shown below.
 
-    ![](./calmMedia/media/image15.tiff){width="2.528994969378828in"
+    ![](./calmMedia/media/image15.png){width="2.528994969378828in"
     height="3.243162729658793in"}
 
 10. Save the Blueprint by clicking the
@@ -276,7 +276,7 @@ Application Server and backend Database.
     Toolbar.
 
 11. The Icon should appear as
-    ![](./calmMedia/media/image9.tiff){width="0.41480971128608923in"
+    ![](./calmMedia/media/image9.png){width="0.41480971128608923in"
     height="0.22590769903762029in"} checked when successfully saved.
 
 12. In this exercise, we’ve created two separate services that contain
@@ -288,14 +288,14 @@ Application Server and backend Database.
 13. To accomplish this, click the ‘Install DB’ task, then click the
     small arrow that appears.
 
-> ![](./calmMedia/media/image16.tiff){width="3.0145833333333334in"
+> ![](./calmMedia/media/image16.png){width="3.0145833333333334in"
 > height="1.7813451443569555in"}
 
 8.  Using the dependency arrow ‘move’ mode enabled, click the ‘Provider
     Create Task’ task within the ‘Deploy App Server’ service. The
     Blueprint should look as follows:
 
-> ![](./calmMedia/media/image17.tiff){width="5.9463003062117235in"
+> ![](./calmMedia/media/image17.png){width="5.9463003062117235in"
 > height="4.9450853018372705in"}
 
 8.  Save the Blueprint by clicking the
@@ -304,7 +304,7 @@ Application Server and backend Database.
     Toolbar.
 
 9.  The Icon should appear as
-    ![](./calmMedia/media/image9.tiff){width="0.41480971128608923in"
+    ![](./calmMedia/media/image9.png){width="0.41480971128608923in"
     height="0.22590769903762029in"} checked when successfully saved.
 
 10. Test, establish a deployment-name, and run the Blueprint by clicking
@@ -321,7 +321,7 @@ Application Server and backend Database.
     height="0.1612182852143482in"} Icon appears next to the **Validate**
     Icon.
 
-    ![](./calmMedia/media/image21.tiff){width="2.43125in"
+    ![](./calmMedia/media/image21.png){width="2.43125in"
     height="0.6215277777777778in"}
 
 12. If the Blueprint was successfully validated, click the **Play**
@@ -330,23 +330,23 @@ Application Server and backend Database.
     Deployment Status screen should appear showing the deployment as
     **IN-PROGRESS**
 
-    ![](./calmMedia/media/image23.tiff){width="4.847916666666666in"
+    ![](./calmMedia/media/image23.png){width="4.847916666666666in"
     height="2.4443963254593175in"}
 
 13. Upon successful completion of a deployment, the status should
     transition from **IN-PROGRESS** to **RUNNING**
 
-![](./calmMedia/media/image24.tiff){width="4.903784995625546in"
+![](./calmMedia/media/image24.png){width="4.903784995625546in"
 height="2.743162729658793in"}
 
 8.  Successful completion of a deployment, and associated tasks can be
     found by scrolling down, below the **Deployment Status** screen in
     **TOPOLOGY** and should appear as follows
 
-    ![](./calmMedia/media/image25.tiff){width="5.68125in"
+    ![](./calmMedia/media/image25.png){width="5.68125in"
     height="3.3277099737532807in"}
 
-    ![](./calmMedia/media/image26.tiff){width="5.68125in"
+    ![](./calmMedia/media/image26.png){width="5.68125in"
     height="1.0943678915135608in"}
 
 9.  Check Deployment status by clicking the **Deployments**
@@ -354,7 +354,7 @@ height="2.743162729658793in"}
     height="0.2799146981627297in"} Icon in the left-hand navigation bar
     to manage the deployment. The following should appear:
 
-    ![](./calmMedia/media/image28.tiff){width="5.680048118985127in"
+    ![](./calmMedia/media/image28.png){width="5.680048118985127in"
     height="1.3431627296587927in"}
 
 10. Verify the deployment within Prism Element by navigating to the VM
@@ -362,14 +362,14 @@ height="2.743162729658793in"}
     be managed the same as a manually-provisioned AHV VM within Prism
     Element
 
-    ![](./calmMedia/media/image29.tiff){width="5.731081583552056in"
+    ![](./calmMedia/media/image29.png){width="5.731081583552056in"
     height="1.687392825896763in"}
 
 11. Verify the App Server is running by opening a browser (Chrome
     recommended) to establish a session with the server using the IP
     Address - Ref: App Server VM in Prism Element.
 
-    ![](./calmMedia/media/image30.tiff){width="5.847916666666666in"
+    ![](./calmMedia/media/image30.png){width="5.847916666666666in"
     height="3.0936778215223097in"}
 
 INTENTIONALLY LEFT BLANK
