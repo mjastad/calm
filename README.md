@@ -110,7 +110,7 @@ Application Server and backend Database.
     b.  Under the **PROVIDERS** section, set the **PROVIDER** field by
         clicking the dropdown menu and selecting *“Provision Nutanix”.*
 
-        ![](./calmMedia/media/image5.png)
+    ![](./calmMedia/media/image5.png)
 
     c.  Under **CONFIGURATION** set the fields as illustrated below:
 
@@ -135,14 +135,14 @@ Application Server and backend Database.
     e.  Create a credential by clicking on the dropdown menu under
         **CREDENTIAL**
 
-        ![](./calmMedia/media/image6.png)
+    ![](./calmMedia/media/image6.png)
 
     f.  Click **Add New Credential**. This exercise requires username &
         password authentication only. Add the credentials for the VM
         user: root, password: nutanix/4u. Click **Add** button to save
         credential.
 
-        ![](./calmMedia/media/image7.png)
+    ![](./calmMedia/media/image7.png)
 
 8.  Save the Blueprint by clicking the
     **Save**![](./calmMedia/media/image8.png) Icon located to the right of Calm’s
