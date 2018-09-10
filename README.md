@@ -37,7 +37,7 @@ execute and complete the lab.
 
 -   Calm-183.qcow
 
--   CentOS Server v7.qcow (smb://pocfs.nutanixdc.local/iso).
+-   CentOS Server v7.qcow (smb://<HPOC ISO FILE SHARE>).
 
 Creating and Running Calm Blueprints:
 =====================================
